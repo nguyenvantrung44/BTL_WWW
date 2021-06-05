@@ -1,0 +1,8 @@
+eclipse.preferences.version=1
+encoding//src/main/java/com/nhom3/config/SecurityConfig.java=UTF-8
+encoding//src/main/java/com/nhom3/repository/impl/NguoiDungReponsitory.java=UTF-8
+encoding//src/main/java/com/nhom3/service/impl/SanPhamService.java=UTF-8
+encoding//src/main/java/com/nhom3/service/impl/UserDetailService.java=UTF-8
+encoding//src/main/webapp/WEB-INF/views/error/errorPage.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/views/include/menu2.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/views/include/menuleft.jsp=UTF-8
