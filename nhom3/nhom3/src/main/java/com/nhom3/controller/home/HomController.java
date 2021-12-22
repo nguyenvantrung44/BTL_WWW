@@ -108,7 +108,7 @@ public class HomController {
 	}
 
 	@GetMapping("honda")
-	public String showListAoThun(Model model, Model model2) {
+	public String showListHonda(Model model, Model model2) {
 		List<SanPhamDto> list = sanPhamService.getSanPhamByDanhMucByTen("Xe Đạp Điện Honda");
 		model.addAttribute("listSanPham", list);
 		model2.addAttribute("danhmuc", "Xe Đạp Điện Honda");
@@ -117,7 +117,7 @@ public class HomController {
 	}
 
 	@GetMapping("yamaha")
-	public String showListAoPhong(Model model, Model model2) {
+	public String showListYamaha(Model model, Model model2) {
 		List<SanPhamDto> list = sanPhamService.getSanPhamByDanhMucByTen("Xe Đạp Điện Yamaha");
 		model.addAttribute("listSanPham", list);
 		model2.addAttribute("danhmuc", "Xe Đạp Điện Yamaha");
@@ -125,7 +125,7 @@ public class HomController {
 	}
 
 	@GetMapping("dkbike")
-	public String showListAoSoMi(Model model, Model model2) {
+	public String showListDkBike(Model model, Model model2) {
 		List<SanPhamDto> list = sanPhamService.getSanPhamByDanhMucByTen("Xe Đạp Điện DK Bike");
 		model.addAttribute("listSanPham", list);
 		model2.addAttribute("danhmuc", "Xe Đạp Điện DK Bike");
@@ -133,7 +133,7 @@ public class HomController {
 	}
 
 	@GetMapping("hitasa")
-	public String showListCocTay(Model model, Model model2) {
+	public String showListHitasa(Model model, Model model2) {
 		List<SanPhamDto> list = sanPhamService.getSanPhamByDanhMucByTen("Xe Đạp Điện Hitasa");
 		model.addAttribute("listSanPham", list);
 		model2.addAttribute("danhmuc", "Xe Đạp Điện Hitasa");
@@ -141,7 +141,7 @@ public class HomController {
 	}
 
 	@GetMapping("hkbike")
-	public String showListQuanJean(Model model, Model model2) {
+	public String showListHkBike(Model model, Model model2) {
 		List<SanPhamDto> list = sanPhamService.getSanPhamByDanhMucByTen("Xe Đạp Điện HkBike");
 		model.addAttribute("listSanPham", list);
 		model2.addAttribute("danhmuc", "Xe Đạp Điện HkBike");
